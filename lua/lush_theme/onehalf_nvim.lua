@@ -282,10 +282,10 @@ local theme = lush(function()
     TSFunction           {fg = blue}, -- For function (calls and definitions).
     TSFuncBuiltin        {fg = blue}, -- For builtin functions: `table.insert` in Lua.
     TSFuncMacro          {fg = cyan}, -- For macro defined fuctions (calls and definitions): each `macro_rules` in Rust.
-    TSParameter          {fg = yellow, gui = italic_strings}, -- For parameters of a function.
+    TSParameter          {fg = fg1, gui = italic_strings}, -- For parameters of a function.
     TSParameterReference {fg = yellow}, -- For references to parameters of a function.
     TSMethod             {fg = blue}, -- For method calls and definitions.
-    TSField              {fg = red}, -- For fields.
+    TSField              {fg = fg1}, -- For fields.
     TSProperty           {fg = red}, -- Same as `TSField`.
     TSConstructor        {fg = cyan}, -- For constructor calls and definitions: `{}` in Lua, and Java constructors.
     TSConditional        {fg = purple, gui = italic_strings}, -- For keywords related to conditionnals.
